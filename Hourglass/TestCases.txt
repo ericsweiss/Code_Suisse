@@ -1,0 +1,80 @@
+1st Feature: Retrieve the price movement for a given security over a specified time period.
+
+For the Security MET, over the time range 20161107141219.161062 to 20161107162336.551208 the price movement is:
+
+----------BEGIN Price Movement----------
+Price Movement: 2.3387441264416893
+Total Time: 1 Millisec
+----------END Price Movement----------
+
+
+2nd Feature: Retireve high price, low price, average price, median price and volatility for a given security within a specified time range.
+
+For the Security MET, over the time range 20161107141219.161062 to 20161107162336.551208 the stats are:
+
+----------BEGIN Price Stats----------
+High Price: 48.08
+Low Price: 46.82
+Mean Price: 47.891438945460344
+Median Price: 47.91
+Volatility: 0.07953532077451084
+Total Time: 32 Millisec
+----------END Price Stats----------
+
+3rd Feature: Classify all the securities into sectors:
+Output:
+
+----------BEGIN Making Sectors----------
+0: 
+   ALK
+   UAL
+   CTSH
+   AAL
+   LUV
+   DAL
+1: 
+   C
+   JPM
+   PFG
+   PRU
+   WFC
+   BAC
+   MET
+2: 
+   VZ
+   T
+   CTL
+3: 
+   MRK
+   PFE
+   PRGO
+   LLY
+   MYL
+   AGN
+4: 
+   MRO
+   OXY
+   APA
+   XEC
+   DVN
+5: 
+   IBM
+   ACN
+6: 
+   COG
+   IT
+Total Time: 14747 Millisec
+----------END Price Movement----------
+
+Each number 0-6 represent a different sector.
+
+
+4th Feature: Plot price movement for one security in a given sector. The accompanying png file is the graph of the price movement of the security labeled with the symbol "C" from 20161107141219.428322 to 20161107161643.746241.
+
+
+5th Feature: Predict the security prices based on price movement. Given the Security MET over time range 20161107141219.161062 to 20161107162336.551208 here is the regression line:
+
+----------BEGIN Price Prediction----------
+y = -2.192453778369126E-6x + 4.420234344332615E7
+Total Time: 4 Millisec
+----------END Price Prediction----------
